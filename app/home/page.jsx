@@ -3,8 +3,8 @@ import React from 'react'
 const Home = () => {
   
   return (
-    <div className='grid h-screen text-3xl grid-cols font-dancing place-items-center'>
-      Feame
+    <div className='text-3xl font-dancing'>
+      Home
     </div>
   )
 }
