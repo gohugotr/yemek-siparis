@@ -28,3 +28,17 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+.container{
+  display: grid;
+  grid-template-columns: 1fr min(1440px, 94%) 1f;
+  grid-template-rows: 96px auto 72px;
+}
+
+.container > * {
+  grid-column: 2;
+}
+
+.container > .fluid {
+  grid-column: 1 / -1;
+}
