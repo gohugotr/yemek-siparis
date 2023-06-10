@@ -1,0 +1,7 @@
+.footer {
+  @apply flex items-center justify-center;
+}
+
+.footer a {
+  @apply underline;
+}

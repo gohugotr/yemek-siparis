@@ -4,7 +4,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap');
 
-
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -20,19 +19,16 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  color: #fff; /* rgb(var(--foreground-rgb)); */
+  background: #000;
 }
 
-.container{
+.container {
   display: grid;
   grid-template-columns: 1fr min(1440px, 94%) 1fr;
   grid-template-rows: 96px auto 72px;
+  max-width: 100%;
+  height: 100vh;
 }
 
 .container > * {
